@@ -24,6 +24,7 @@ const Show = () =>{
             <th>Email</th>
             <th>Name</th>
             <th>Password</th>
+            <th>Gender</th>
             <th>Update</th>
             <th>Delete</th>
         </tr>
@@ -35,6 +36,7 @@ const Show = () =>{
                         <td>{obj.email}</td>
                         <td>{obj.name}</td>
                         <td>{obj.password}</td>
+                        <td>{obj.gender}</td>
                         <td><NavLink to={`/update/${obj.id}`} ><button>Update</button></NavLink></td>
                         <td><NavLink to={`/delete/${obj.id}`} ><button>Delete</button></NavLink></td>
                     </tr>

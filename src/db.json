@@ -1,16 +1,24 @@
 {
   "students": [
     {
-      "id": 0
-    },
-    {
       "types": "Company",
       "email": "pranitmule0@gmail.com",
-      "name": "karti uu",
-      "password": "234232323",
-      "male": false,
-      "female": false,
+      "name": "pranit",
+      "password": "3454",
+      "gender": [
+        "Female"
+      ],
       "id": 1
+    },
+    {
+      "types": null,
+      "email": "",
+      "name": "",
+      "password": "",
+      "gender": [
+        "Male"
+      ],
+      "id": 2
     }
   ]
 }

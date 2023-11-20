@@ -47,11 +47,11 @@ const Add = () => {
                     <hr/>
 
                     <div className="mt-3" >
-                        
-                        <input type="checkbox" id="male" value="Male" {...register("male")}/>&nbsp;
+                          <label htmlFor="gender"></label>
+                        <input type="checkbox" id="male" value="male" {...register("gender")}/>&nbsp;
                         <label>Male</label> &nbsp;
 
-                        <input type="checkbox" id="female" value="Female" {...register("female")} />&nbsp;
+                        <input type="checkbox" id="female" value="Female" {...register("gender")} />&nbsp;
                         <label>Female</label>
                     </div>
                     <hr/>
