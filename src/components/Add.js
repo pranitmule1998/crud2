@@ -2,6 +2,7 @@ import { NavLink, useNavigate } from "react-router-dom";
 import "./A.css";
 import { useForm } from "react-hook-form";
 import axios from "axios";
+import mail from "../components/images/mail.png"
 const Add = () => {
 
      const navigate = useNavigate()
@@ -31,6 +32,7 @@ const Add = () => {
                     </div>
 
                     <div className="col-7 mt-3 mx-auto  ">
+                    
                         <input type="email" id="email" class="form-control" placeholder="Email" aria-label="First name" {...register("email")} />
                     </div>
 
