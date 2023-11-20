@@ -4,12 +4,12 @@
       "id": 0
     },
     {
-      "types": "Personal",
+      "types": "Company",
       "email": "pranitmule0@gmail.com",
-      "name": "karti",
-      "password": "234",
-      "male": "Male",
-      "female": "Female",
+      "name": "karti uu",
+      "password": "234232323",
+      "male": false,
+      "female": false,
       "id": 1
     }
   ]
