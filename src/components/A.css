@@ -1,0 +1,9 @@
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-9,.col-10,.col-11,.col-12{
+
+    background-color: rgb(204, 216, 204);
+}
+
+.row{
+    border:  1px solid black;
+}
+
